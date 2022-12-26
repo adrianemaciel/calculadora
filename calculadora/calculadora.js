@@ -31,12 +31,12 @@ function calculadora() {
 
   function divisaoInteira() {
     resultado = n1 % n2;
-    alert(`${n1} % ${n2} = ${resultado}`);
+    alert(`O resto da divisão entre ${n1} e ${n2} é igual a ${resultado}`);
   }
 
   function potenciacao() {
     resultado = n1 ** n2;
-    alert(`${n1} ** ${n2} = ${resultado}`);
+    alert(`${n1} elevado a ${n2}ª é igual a ${resultado}`);
   }
 
   if (operacao == 1) {
